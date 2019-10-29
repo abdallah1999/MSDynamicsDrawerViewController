@@ -56,7 +56,7 @@ pod 'MSDynamicsDrawerViewController'
 
 Documentation for `MSDynamicsDrawerViewController` is available online via [CocoaDocs](http://cocoadocs.org/docsets/MSDynamicsDrawerViewController/).
 
-## Xcode
+## code
 
 If you would like to install the `MSDynamicsDrawerViewController` documentation into Xcode, you can do so by first installing [Appledoc](https://github.com/tomaz/appledoc/) (`$ brew install appledoc`), and then by running the `Documentation` target in the `MSDynamicsDrawerViewController.xcodeproj` in the root of repository.
 
@@ -103,7 +103,7 @@ UIViewController *drawerViewController = [UIViewController new];
 
 When adding two simultaneous drawer view controllers, they view controllers must be in opposing directions (left/right or top/bottom).
 
-### Replacing or Removing a Drawer
+##### Replacing or Removing a Drawer :-
 
 To replace or remove the drawer view controller, just set either the new `UIViewController` instance or `nil` for the desired direction using the method above.
 
@@ -164,7 +164,7 @@ id <MSDynamicsDrawerStyler> parallaxStyler = [MSDynamicsDrawerParallaxStyler sty
 There are a few default stylers included with `MSDynamicsDrawerViewController`. The `Stylers` menu option in the example project enables you to try these individually or in combination.
 
 * **Parallax Styler** `MSDynamicsDrawerParallaxStyler`
-  Creates a parallax effect on the `drawerView` as the frame of the `paneView` is adjusted. Modify the `parallaxOffsetFraction` property to change the amount of parallax that occurs.
+  Creates a parallax effect on the `drawerView` , as the frame of the `paneView` is adjusted. Modify the `parallaxOffsetFraction` property to change the amount of parallax that occurs.
 
 * **Fade Styler** `MSDynamicsDrawerFadeStyler`
   Fades the `drawerView` as the frame of the `paneView` is adjusted. Modify the `closedAlpha` property to change the amount of fade that occurs when the `paneView` is closed.
